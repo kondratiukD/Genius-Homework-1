@@ -1,0 +1,155 @@
+@font-face {
+  font-display: swap;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-condensed-v27-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/roboto-condensed-v27-latin-600.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/roboto-condensed-v27-latin-900.woff2") format("woff2");
+}
+
+:root {
+  --color-brand-light: #2b7fff;
+  --color-brand-dark: #011c44;
+  --color-primare-light: #ffffff;
+}
+
+/* Base */
+body {
+  color: var(--color-brand-dark);
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+address {
+  font-style: normal;
+}
+
+ul {
+  list-style-type: none;
+}
+
+p {
+  color: var(--color-brand-dark);
+}
+
+h2 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* Link */
+.link {
+  color: var(--color-brand-dark);
+  text-decoration: none;
+  line-height: 1.2;
+}
+
+.link:hover {
+  color: var(--color-brand-light);
+  font-weight: 700;
+}
+
+/* Hero section */
+.hero-title {
+  color: var(--color-brand-light);
+  text-align: left;
+  font-size: 140px;
+  font-weight: 700;
+  line-height: 0.8;
+}
+
+/* Button */
+.button {
+  color: var(--color-primare-light);
+  background-color: var(--color-brand-light);
+  border: 2px solid var(--color-brand-light);
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.button:hover {
+  color: var(--color-brand-dark);
+  background-color: transparent;
+}
+
+.text-button {
+  color: #4a4a4a;
+  line-height: 1.2;
+}
+
+/* Sections */
+.about-title .accent {
+  color: var(--color-brand-light);
+}
+
+.advantages-title {
+  text-align: center;
+}
+
+.advantages-title .accent {
+  color: var(--color-brand-light);
+}
+
+.advantages-h4 {
+  color: #000000;
+  text-align: center;
+  line-height: 1.3;
+}
+
+.procedures-title {
+  text-align: center;
+}
+
+.procedures-title .accent {
+  color: var(--color-brand-light);
+}
+
+.procedures-list {
+  color: #ffffff;
+  font-size: 22px;
+  line-height: 1.2;
+}
+
+.contact-title {
+  text-align: center;
+}
+
+.contact-title .accent {
+  color: var(--color-brand-light);
+}
+
+/* Footer */
+.address-link {
+  color: var(--color-primare-light);
+  font-size: 16px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.address-link:hover {
+  color: var(--color-brand-light);
+}
+
+.address-copyright {
+  line-height: 1.2;
+  color: #747272;
+}
